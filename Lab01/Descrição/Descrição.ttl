@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@base <http://www.semantic.web.ufc.br/resource/> .
+
+<GabrielBrilhante>
+    rdf:type foaf:Person;
+    foaf:title "Mr";
+    foaf:firstName "Gabriel";
+    foaf:lastName "Brilhante";
+    foaf:mbox "ielcordeir070@gmail.com";
+    foaf:homepage <https://github.com/brilhante14>;
+    foaf:img <https://www.instagram.com/p/CEQdKSMFDzn/?utm_source=ig_web_copy_link>;
+    foaf:phone "+5585985066069";
+    foaf:knows <LauraPetrola> ;
+    foaf:topic_interest "Sushi" ;
+    foaf:topic_interest "Joker" . 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/GabrielBrilhante">
+    <foaf:title>Mr</foaf:title>
+    <foaf:firstName>Gabriel</foaf:firstName>
+    <foaf:lastName>Brilhante</foaf:lastName>
+    <foaf:mbox>ielcordeir070@gmail.com</foaf:mbox>
+    <foaf:homepage rdf:resource="https://github.com/brilhante14"/>
+    <foaf:img rdf:resource="https://www.instagram.com/p/CEQdKSMFDzn/?utm_source=ig_web_copy_link"/>
+    <foaf:phone>+5585985066069</foaf:phone>
+    <foaf:knows rdf:resource="http://www.semantic.web.ufc.br/resource/LauraPetrola"/>
+    <foaf:topic_interest>Sushi</foaf:topic_interest>
+    <foaf:topic_interest>Joker</foaf:topic_interest>
+  </foaf:Person>
+
+</rdf:RDF>

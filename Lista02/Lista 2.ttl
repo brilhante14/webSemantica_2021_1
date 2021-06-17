@@ -1,0 +1,105 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix fam: <http://www.sefaz.ma.com.br/ontology/family/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix uri: <http://purl.org/NET/uri#> .
+@base <http://www.semantic.web.ufc.br/resource/> .
+
+fam:Animal_de_estimacao rdf:type rdfs:Class .
+
+fam:Cachorro rdf:type rdfs:Class ;
+             rdfs:subClassOf fam:Animal_de_estimacao .
+
+fam:Gato rdf:type rdfs:Class ;
+         rdfs:subClassOf fam:Animal_de_estimacao .
+
+fam:Pessoa rdf:type rdfs:Class .
+fam:Parent rdf:type rdfs:Class .
+
+fam:Filho rdf:type rdfs:Class ;
+          rdfs:subClassOf fam:Pessoa .
+
+fam:Homem rdf:type rdfs:Class ;
+          rdfs:subClassOf fam:Pessoa .
+
+fam:Mae rdf:type rdfs:Class ;
+        rdfs:subClassOf fam:Mulher ,
+                        fam:Parent .
+                        
+fam:Mulher rdf:type rdfs:Class ;
+           rdfs:subClassOf fam:Pessoa .
+
+fam:Pai rdf:type rdfs:Class ;
+        rdfs:subClassOf fam:Homem, 
+                        fam:Parent .
+
+# Properties
+fam:conhece rdf:type rdf:Property ;
+            rdfs:domain fam:Pessoa ;
+            rdfs:range fam:Pessoa .
+
+fam:filho rdf:type rdf:Property ;
+          rdfs:domain fam:Parent ;
+          rdfs:range fam:Filho .
+
+fam:tem_parent rdf:type rdf:Property ;
+               rdfs:domain fam:Filho ;
+               rdfs:range fam:Parent .
+
+fam:tem_mae rdf:type rdf:Property ;
+            rdfs:subPropertyOf fam:tem_parent ;
+            rdfs:domain fam:Filho ;
+            rdfs:range fam:Mae .
+
+fam:tem_pai rdf:type rdf:Property ;
+            rdfs:subPropertyOf fam:tem_parent ;
+            rdfs:domain fam:Filho ;
+            rdfs:range fam:Pai .
+               
+fam:tem_pet rdf:type rdf:Property ;
+            rdfs:domain fam:Pessoa ;
+            rdfs:range fam:Animal_de_estimacao .
+
+fam:nascimento rdf:type rdf:Property ;
+               rdfs:domain fam:Pessoa ;
+               rdfs:range xsd:dateTime .
+
+fam:nome rdf:type rdf:Property ;
+         rdfs:domain fam:Pessoa ;
+         rdfs:range xsd:string .
+
+fam:nome_pet rdf:type rdf:Property ;
+             rdfs:domain fam:Animal_de_estimacao ;
+             rdfs:range xsd:string .
+
+<João>
+    uri: fam:joao ;
+    a fam:Homem ;
+    fam:nome "João da Silva" ;
+    fam:nascimento "1987-02-03"^^xsd:date ;
+    fam:filho <Zé> .
+
+<Maria> 
+    uri: fam:maria ;
+    fam:nome "Maria da Silva ";
+    fam:nascimento "1988-02-03"^^xsd:date ;
+    fam:conhece <Zé> ;
+    fam:conhece <João> .
+<Zé>
+    uri: fam:ze ;
+    fam:nome "José da Silva" ;
+    fam:nascimento "1999-02-03"^^xsd:date ;
+    fam:tem_parent <João> ;
+    fam:tem_mae <Maria> ;
+    fam:conhece <Sa> ;
+    fam:conhece <Maria> ;
+    fam:conhece <João> .
+<Sa>
+    uri: fam:sa ;
+    a fam:Mulher ;
+    fam:nome "Sabrina Sousa" ;
+    fam:tem_pet <Rex> .
+<Miau>
+    uri: fam:miau ;
+    a fam:Cachorro ;
+    fam:nome_pet "miau" .

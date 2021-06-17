@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/GabrielBrilhante",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/title": [
+            {
+                "@value": "Mr"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/firstName": [
+            {
+                "@value": "Gabriel"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/lastName": [
+            {
+                "@value": "Brilhante"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "ielcordeir070@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/homepage": [
+            {
+                "@id": "https://github.com/brilhante14"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/img": [
+            {
+                "@id": "https://www.instagram.com/p/CEQdKSMFDzn/?utm_source=ig_web_copy_link"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone": [
+            {
+                "@value": "+5585985066069"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/knows": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/LauraPetrola"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/topic_interest": [
+            {
+                "@value": "Sushi"
+            },
+            {
+                "@value": "Joker"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/LauraPetrola"
+    },
+    {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+    },
+    {
+        "@id": "https://github.com/brilhante14"
+    },
+    {
+        "@id": "https://www.instagram.com/p/CEQdKSMFDzn/?utm_source=ig_web_copy_link"
+    }
+]

@@ -1,0 +1,75 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.semantic.web.ufc.br/resource/TurmaWS2021> a foaf:Group .
+<http://www.semantic.web.ufc.br/resource/Tulio>
+  a foaf:Person ;
+  foaf:name "Tulio Vidal" ;
+  foaf:age "40" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "tulio@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Vania>
+  a foaf:Person ;
+  foaf:name "Vania Vidal" ;
+  foaf:age "35" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "@vaniagmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Washington>
+  a foaf:Person ;
+  foaf:name "Washington Silva" ;
+  foaf:age "36" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Washington@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Paulo>
+  a foaf:Person ;
+  foaf:name "Paulo Cordeiro" ;
+  foaf:age "46" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Paulo@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Renato>
+  a foaf:Person ;
+  foaf:name "Renato Freitas" ;
+  foaf:age "27" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Renato@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Gabriel>
+  a foaf:Person ;
+  foaf:name "Gabriel Brilhante" ;
+  foaf:age "31" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Gabriel@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Ronney>
+  a foaf:Person ;
+  foaf:name "Ronney Silva" ;
+  foaf:age "56" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Ronney@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Ivandro>
+  a foaf:Person ;
+  foaf:name "Ivandro Claudino" ;
+  foaf:age "20" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Ivandro@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+
+<http://www.semantic.web.ufc.br/resource/Laura>
+  a foaf:Person ;
+  foaf:name "Laura Petrola" ;
+  foaf:age "16" ;
+  foaf:phone: "558532354022" ;
+  foaf:mbox "Laura@gmail.com" ;
+  foaf:member <http://www.semantic.web.ufc.br/resource/TurmaWS2021> .
+

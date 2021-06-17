@@ -1,0 +1,293 @@
+[
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Gabriel",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Gabriel Brilhante"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "31"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Gabriel@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Ivandro",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Ivandro Claudino"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "20"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Ivandro@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Laura",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Laura Petrola"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "16"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Laura@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Paulo",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Paulo Cordeiro"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "46"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Paulo@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Renato",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Renato Freitas"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "27"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Renato@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Ronney",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Ronney Silva"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "56"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Ronney@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Tulio",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Tulio Vidal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "40"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "tulio@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Group"
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Vania",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Vania Vidal"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "35"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "@vaniagmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.semantic.web.ufc.br/resource/Washington",
+        "@type": [
+            "http://xmlns.com/foaf/0.1/Person"
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@value": "Washington Silva"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/age": [
+            {
+                "@value": "36"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/phone:": [
+            {
+                "@value": "558532354022"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/mbox": [
+            {
+                "@value": "Washington@gmail.com"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/member": [
+            {
+                "@id": "http://www.semantic.web.ufc.br/resource/TurmaWS2021"
+            }
+        ]
+    },
+    {
+        "@id": "http://xmlns.com/foaf/0.1/Group"
+    },
+    {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+    }
+]

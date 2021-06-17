@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.semantic.web.ufc.br/resource/GabrielBrilhante>
+  a foaf:Person ;
+  foaf:title "Mr" ;
+  foaf:firstName "Gabriel" ;
+  foaf:lastName "Brilhante" ;
+  foaf:mbox "ielcordeir070@gmail.com" ;
+  foaf:homepage <https://github.com/brilhante14> ;
+  foaf:img <https://www.instagram.com/p/CEQdKSMFDzn/?utm_source=ig_web_copy_link> ;
+  foaf:phone "+5585985066069" ;
+  foaf:knows <http://www.semantic.web.ufc.br/resource/LauraPetrola> ;
+  foaf:topic_interest "Sushi", "Joker" .
+

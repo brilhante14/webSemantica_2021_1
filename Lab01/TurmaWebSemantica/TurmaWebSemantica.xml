@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Group rdf:about="http://www.semantic.web.ufc.br/resource/TurmaWS2021">
+  </foaf:Group>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Tulio">
+    <foaf:name>Tulio Vidal</foaf:name>
+    <foaf:age>40</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>tulio@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Vania">
+    <foaf:name>Vania Vidal</foaf:name>
+    <foaf:age>35</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>@vaniagmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Washington">
+    <foaf:name>Washington Silva</foaf:name>
+    <foaf:age>36</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Washington@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Paulo">
+    <foaf:name>Paulo Cordeiro</foaf:name>
+    <foaf:age>46</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Paulo@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Renato">
+    <foaf:name>Renato Freitas</foaf:name>
+    <foaf:age>27</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Renato@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Gabriel">
+    <foaf:name>Gabriel Brilhante</foaf:name>
+    <foaf:age>31</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Gabriel@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Ronney">
+    <foaf:name>Ronney Silva</foaf:name>
+    <foaf:age>56</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Ronney@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Ivandro">
+    <foaf:name>Ivandro Claudino</foaf:name>
+    <foaf:age>20</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Ivandro@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+  <foaf:Person rdf:about="http://www.semantic.web.ufc.br/resource/Laura">
+    <foaf:name>Laura Petrola</foaf:name>
+    <foaf:age>16</foaf:age>
+    <foaf:phone:>558532354022</foaf:phone:>
+    <foaf:mbox>Laura@gmail.com</foaf:mbox>
+    <foaf:member rdf:resource="http://www.semantic.web.ufc.br/resource/TurmaWS2021"/>
+  </foaf:Person>
+
+</rdf:RDF>
