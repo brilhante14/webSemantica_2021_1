@@ -1,0 +1,590 @@
+<http://curso.com/directMap/rel_person_paper/personid=1;paperid=1> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=1> .
+<http://curso.com/directMap/rel_person_paper/personid=2;paperid=1> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=2> .
+<http://curso.com/directMap/rel_person_paper/personid=4;paperid=2> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=4> .
+<http://curso.com/directMap/rel_person_paper/personid=6;paperid=4> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=6> .
+<http://curso.com/directMap/rel_person_paper/personid=9;paperid=4> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=9> .
+<http://curso.com/directMap/rel_person_paper/personid=10;paperid=5> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=10> .
+<http://curso.com/directMap/rel_person_paper/personid=11;paperid=5> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=11> .
+<http://curso.com/directMap/rel_person_paper/personid=5;paperid=6> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=5> .
+<http://curso.com/directMap/rel_person_paper/personid=12;paperid=8> <http://curso.com/directMap/rel_person_paper#ref-personid> <http://curso.com/directMap/persons/perid=12> .
+<http://curso.com/directMap/rel_person_organization/personid=1;organizationid=1> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=1> .
+<http://curso.com/directMap/rel_person_organization/personid=2;organizationid=1> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=2> .
+<http://curso.com/directMap/rel_person_organization/personid=3;organizationid=1> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=3> .
+<http://curso.com/directMap/rel_person_organization/personid=4;organizationid=3> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=4> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=5> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=5> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=6> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=5> .
+<http://curso.com/directMap/rel_person_organization/personid=6;organizationid=7> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=6> .
+<http://curso.com/directMap/rel_person_organization/personid=9;organizationid=8> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=9> .
+<http://curso.com/directMap/rel_person_organization/personid=10;organizationid=9> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=10> .
+<http://curso.com/directMap/rel_person_organization/personid=11;organizationid=9> <http://curso.com/directMap/rel_person_organization#ref-personid> <http://curso.com/directMap/persons/perid=11> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=1> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=1> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=1> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=1> .
+<http://curso.com/directMap/rel_person_topic/personid=4;topicid=1> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=1> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=2> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=2> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=2> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=2> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=3> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=3> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=3> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=3> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=6;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=9;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=6> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=6> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=7> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=7> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=7> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=7> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=8> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=8> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=10> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=10> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=10> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=10> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=13> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=13> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=15> <http://curso.com/directMap/rel_person_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=15> .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#homepage> "http://www.isi.edu/~gil" .
+<http://curso.com/directMap/persons/perid=2> <http://curso.com/directMap/persons#homepage> "http://www.isi.edu/~varunr" .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#homepage> "http://www.isi.edu/~varunr" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#homepage> "http://www.i-u.de/schools/eberhart/" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#homepage> "http://www.cs.vu.nl/~borys" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#homepage> "http://www-uk.hpl.hp.com/people/afs/" .
+<http://curso.com/directMap/persons/perid=9> <http://curso.com/directMap/persons#homepage> "http://reggiori.webweaving.org/" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#homepage> "http://www.dbgroup.unimo.it/Bergamaschi.html" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#homepage> "http://www.dbgroup.unimo.it/~guerra/" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#homepage> "http://www.bizer.de/" .
+<http://curso.com/directMap/organizations/orgid=1> <http://curso.com/directMap/organizations#country> "United States" .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#country> "Germany" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#country> "The Netherlands" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#country> "The Netherlands" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#country> "UK" .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#country> "Italy" .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=5> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=15> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=3> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=5> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=10> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=11> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=14> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=2> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=3> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=13> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=5> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=11> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=13> a <http://curso.com/directMap/rel_paper_topic> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=5> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=15> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=15> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=3> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=3> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=5> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=10> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=10> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=11> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=11> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=14> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=14> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=2> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=2> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=3> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=3> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=13> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=13> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=5> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=5> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=11> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=11> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=13> <http://curso.com/directMap/rel_paper_topic#ref-topicid> <http://curso.com/directMap/topics/topicid=13> .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#year> "2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#year> "2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#year> "2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#year> "2002"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#year> "2003"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=7> <http://curso.com/directMap/papers#year> "2006"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#year> "2006"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#uri> "http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Trusting Information Sources One Citizen at a Time" .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#uri> "http://www.i-u.de/schools/eberhart/iswc2002/#Automatic Generation of Java/SQL based Inference Engines from RDF Schema and RuleML" .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#uri> "http://www-uk.hpl.hp.com/people/afs/Abstracts/ISWC2002-SquishQL-Abstract.html#SquishQL" .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#uri> "http://www.dbgroup.unimo.it/iswc/iswc.html#A Data Integration Framework for E-commerce Product Classification" .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#uri> "http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#OmelayenkoISWC2002" .
+<http://curso.com/directMap/papers/paperid=7> <http://curso.com/directMap/papers#uri> "http://eprints.ecs.soton.ac.uk/12614/01/Semantic_Web_Revisted.pdf" .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#uri> "http://www.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/resources/d2r-server-slides-www2006.pdf" .
+<http://curso.com/directMap/organizations/orgid=1> <http://curso.com/directMap/organizations#location> "Marina Del Rey" .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#location> "Karlsruhe" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#location> "Amsterdam" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#location> "Amsterdam" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#location> "Bristol" .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#location> "Modena" .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#title> "Trusting Information Sources One Citizen at a Time" .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#title> "Automatic Generation of Java/SQL based Inference Engines from RDF Schema and RuleML" .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#title> "Three Implementations of SquishQL, a Simple RDF Query Language" .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#title> "A Data Integration Framework for E-commerce Product Classification" .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#title> "Integrating Vocabularies: Discovering and Representing Vocabulary Maps" .
+<http://curso.com/directMap/papers/paperid=7> <http://curso.com/directMap/papers#title> "The Semantic Web Revisited" .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#title> "D2R Server - Publishing Relational Databases on the Web as SPARQL Endpoints" .
+<http://curso.com/directMap/rel_person_paper/personid=1;paperid=1> <http://curso.com/directMap/rel_person_paper#personid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=2;paperid=1> <http://curso.com/directMap/rel_person_paper#personid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=4;paperid=2> <http://curso.com/directMap/rel_person_paper#personid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=6;paperid=4> <http://curso.com/directMap/rel_person_paper#personid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=9;paperid=4> <http://curso.com/directMap/rel_person_paper#personid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=10;paperid=5> <http://curso.com/directMap/rel_person_paper#personid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=11;paperid=5> <http://curso.com/directMap/rel_person_paper#personid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=5;paperid=6> <http://curso.com/directMap/rel_person_paper#personid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=12;paperid=8> <http://curso.com/directMap/rel_person_paper#personid> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=5> <http://curso.com/directMap/rel_paper_topic#paperid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=15> <http://curso.com/directMap/rel_paper_topic#paperid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=3> <http://curso.com/directMap/rel_paper_topic#paperid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=5> <http://curso.com/directMap/rel_paper_topic#paperid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=10> <http://curso.com/directMap/rel_paper_topic#paperid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=11> <http://curso.com/directMap/rel_paper_topic#paperid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=14> <http://curso.com/directMap/rel_paper_topic#paperid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=2> <http://curso.com/directMap/rel_paper_topic#paperid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=3> <http://curso.com/directMap/rel_paper_topic#paperid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=13> <http://curso.com/directMap/rel_paper_topic#paperid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=5> <http://curso.com/directMap/rel_paper_topic#paperid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=11> <http://curso.com/directMap/rel_paper_topic#paperid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=13> <http://curso.com/directMap/rel_paper_topic#paperid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#ref-conference> <http://curso.com/directMap/conferences/confid=23541> .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#ref-conference> <http://curso.com/directMap/conferences/confid=23541> .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#ref-conference> <http://curso.com/directMap/conferences/confid=23541> .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#ref-conference> <http://curso.com/directMap/conferences/confid=23541> .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#ref-conference> <http://curso.com/directMap/conferences/confid=23541> .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#ref-conference> <http://curso.com/directMap/conferences/confid=23542> .
+<http://curso.com/directMap/rel_person_paper/personid=1;paperid=1> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=1> .
+<http://curso.com/directMap/rel_person_paper/personid=2;paperid=1> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=1> .
+<http://curso.com/directMap/rel_person_paper/personid=4;paperid=2> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=2> .
+<http://curso.com/directMap/rel_person_paper/personid=6;paperid=4> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=4> .
+<http://curso.com/directMap/rel_person_paper/personid=9;paperid=4> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=4> .
+<http://curso.com/directMap/rel_person_paper/personid=10;paperid=5> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=5> .
+<http://curso.com/directMap/rel_person_paper/personid=11;paperid=5> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=5> .
+<http://curso.com/directMap/rel_person_paper/personid=5;paperid=6> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=6> .
+<http://curso.com/directMap/rel_person_paper/personid=12;paperid=8> <http://curso.com/directMap/rel_person_paper#ref-paperid> <http://curso.com/directMap/papers/paperid=8> .
+<http://curso.com/directMap/rel_person_organization/personid=1;organizationid=1> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=2;organizationid=1> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=3;organizationid=1> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=4;organizationid=3> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=5> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=6> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=6;organizationid=7> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=9;organizationid=8> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=10;organizationid=9> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_organization/personid=11;organizationid=9> a <http://curso.com/directMap/rel_person_organization> .
+<http://curso.com/directMap/rel_person_paper/personid=1;paperid=1> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=2;paperid=1> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=4;paperid=2> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=6;paperid=4> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=9;paperid=4> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=10;paperid=5> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=11;paperid=5> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=5;paperid=6> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/rel_person_paper/personid=12;paperid=8> a <http://curso.com/directMap/rel_person_paper> .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#email> "gil@isi.edu" .
+<http://curso.com/directMap/persons/perid=2> <http://curso.com/directMap/persons#email> "varunr@isi.edu" .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#email> "blythe@isi.edu" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#email> "eberhart@i-u.de" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#email> "borys@cs.vu.nl" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#email> "andy.seaborne@hpl.hp.com" .
+<http://curso.com/directMap/persons/perid=9> <http://curso.com/directMap/persons#email> "areggiori@webweaving.org" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#email> "bergamaschi.sonia@unimo.it" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#email> "guerra.francesco@unimo.it" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#email> "chris@bizer.de" .
+<http://curso.com/directMap/s/topicid=1> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=3> .
+<http://curso.com/directMap/s/topicid=2> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=15> .
+<http://curso.com/directMap/s/topicid=4> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=5> .
+<http://curso.com/directMap/s/topicid=5> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=8> .
+<http://curso.com/directMap/s/topicid=6> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=5> .
+<http://curso.com/directMap/s/topicid=7> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=8> .
+<http://curso.com/directMap/s/topicid=9> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=16> .
+<http://curso.com/directMap/s/topicid=11> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=5> .
+<http://curso.com/directMap/s/topicid=14> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=16> .
+<http://curso.com/directMap/s/topicid=16> <http://curso.com/directMap/topics#ref-parentid> <http://curso.com/directMap/o/topicid=3> .
+<http://curso.com/directMap/organizations/orgid=1> <http://curso.com/directMap/organizations#uri> "http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#ISI" .
+<http://curso.com/directMap/organizations/orgid=2> <http://curso.com/directMap/organizations#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#University_of_Karlsruhe" .
+<http://curso.com/directMap/organizations/orgid=3> <http://curso.com/directMap/organizations#uri> "http://www.i-u.de/schools/eberhart/iswc2002/#International University in Germany" .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#AIFB" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#uri> "http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#CSVUNL" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#uri> "http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#VrijeUniversiteitAmsterdam" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#uri> "http://www.hpl.hp.co.uk#HPL" .
+<http://curso.com/directMap/organizations/orgid=8> <http://curso.com/directMap/organizations#uri> "http://dma.jrc.it#Institute for the Protection and Security of the Citizen" .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#uri> "http://www.dbgroup.unimo.it/iswc/iswc.html#DII" .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#abstract> "This paper describes an approach to derive assessments about information \\n      sources based on individual feedback about the sources. We describe \\n      TRELLIS, a system that helps users annotate their analysis of \\n      alternative information sources that can be contradictory and \\n      incomplete. As the user makes a decision on which sources to dismiss and \\n      which to believe in making a final decision, TRELLIS captures the \\n      derivation of the decision in a semantic markup. TRELLIS then uses these \\n      annotations to derive an assessment of the source based on the \\n      annotations of many individuals. Our work builds on the Semantic Web and \\n      presents a tool that helps users create annotations that are in a mix of \\n      formal and human language, and exploits the formal representations to \\n      derive measures of trust in the content of Web resources and their \\n      original source." .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#abstract> "This paper describes two approaches for automatically converting RDF Schema \\nand RuleML sources into an inference engine and storage repository. Rather than \\nusing traditional inference systems, our solution bases on mainstream \\ntechnologies like Java and relational database systems. While this necessarily \\nimposes some restrictions, the ease of integration into an existing IT landscape \\nis a major advantage. We present the conversion tools and their limitations. \\nFurthermore, an extension to RuleML is proposed, that allows Java-enabled \\nreaction rules, where calls to Java libraries can be performed upon a rule \\nfiring. This requires hosts to be Java-enabled when rules and code are moved \\nacross the web. However, the solution allows for great engineering \\nflexibility." .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#abstract> "RDF provides a basic way to represent data for the Semantic Web. We have \\n      been experimenting with the query paradigm for working with RDF data in \\n      semantic web applications. Query of RDF data provides a declarative \\n      access mechanism that is suitable for application usage and remote \\n      access. We describe work on a conceptual model for querying RDF data \\n      that refines ideas first presented in at the W3C workshop on Query \\n      Languages and the design of one possible syntax, derived from rdfDB, \\n      that is suitable for application programmers. Further, we present \\n      experience gained in three implementations of the query language." .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#abstract> "A marketplace is \\n      the place in which the demand and supply of buyers and vendors \\n      participating in a business process may meet. Therefore, electronic \\n      marketplaces are virtual communities in which buyers may meet proposals \\n      of several suppliers and make the best choice. In the electronic \\n      commerce world, the comparison between different products is blocked due \\n      to the lack of standards (on the contrary, the proliferation of \\n      standards) describing and classifying them. Therefore, the need for B2B \\n      and B2C marketplaces is to reclassify products and goods according to \\n      different standardization models. This paper aims to face this problem \\n      by suggesting the use of a semi-automatic methodology, supported by a \\n      tool (SI-Designer), to define the mapping among different e-commerce \\n      product classification standards. This methodology was developed for the \\n      MOMIS-system within the Intelligent Integration of Information research \\n      area. We describe our extension to the methodology that makes it \\n      applyable in general to product classification standard, by selecting a \\n      fragment of ECCMA/UNSPSC and ecl@ss standard." .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#abstract> "The Semantic Web would enable new ways of doing business on the<br>Web \\n      that require development of advanced business document<br>integration \\n      technologies performing intelligent document<br>transformation. The \\n      documents use different vocabularies that<br>consist of large \\n      hierarchies of terms. Accordingly, vocabulary<br>mapping and \\n      transformation becomes an important task in the whole<br>business \\n      document transformation process. It includes several<br>subtasks: map \\n      discovery, map representation, and map execution<br>that must be \\n      seamlessly integrated into the document integration<br>process. In this \\n      paper we discuss the process of discovering the<br>maps between two \\n      vocabularies assuming availability of two sets of<br>documents, each \\n      using one of the vocabularies. We take the<br>vocabularies of product \\n      classification codes as a playground and<br>propose a reusable map \\n      discovery technique based on Bayesian text<br>classification approach. \\n      We show how the discovered maps can be<br>integrated into the document \\n      transformation process." .
+<http://curso.com/directMap/papers/paperid=7> <http://curso.com/directMap/papers#abstract> "The original Scientific American article on the Semantic Web appeared in 2001. It described the evolution of a Web that consisted largely of documents for humans to read to one that included data and information for computers to manipulate. The Semantic Web is a Web of actionable information--information derived from data through a semantic theory for interpreting the symbols.This simple idea, however, remains largely unrealized. Shopbots and auction bots abound on the Web, but these are essentially handcrafted for particular tasks; they have little ability to interact with heterogeneous data and information types. Because we haven't yet delivered large-scale, agent-based mediation, some commentators argue that the Semantic Web has failed to deliver. We argue that agents can only flourish when standards are well established and that the Web standards for expressing shared meaning have progressed steadily over the past five years. Furthermore, we see the use of ontologies in the e-science community presaging ultimate success for the Semantic Web--just as the use of HTTP within the CERN particle physics community led to the revolutionary success of the original Web. This article is part of a special issue on the Future of AI." .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#abstract> "The Resource Description Framework and the SPARQL query language provide a standardized way for exposing and linking data sources on the Web. D2R Server is a turn-key solution for making the content of existing, non-RDF databases accessible as SPARQL endpoints. The server takes SPARQL queries from the Web and rewrites them via a mapping into SQL queries against a relational database. This on-the-fly translation allows RDF applications to access the content of large databases without having to replicate them into RDF. D2R Server can be used to integrate existing databases into RDF systems, and to add SPARQL interfaces to database-backed software products. In the talk, we will give an introduction into the D2RQ mapping language, which is used to define mappings between relational and RDF schemata, and demonstrate how D2R Server can be used to extend a WordPress blog with a SPARQL interface." .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#address> "International University in Germany Campus 2 76646 Bruchsal Germany" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#address> "Vrije Universiteit, Division of Mathematics and Computer Science, De Boelelaan 1081a,1081hv, Amsterdam, The Netherlands" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#address> "Hewlett-Packard Laboratories, Bristol, BS34 8QZ, UK" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#address> "DII- Universita di Modena e Reggio Emilia via Vignolese 905 41100 Modena" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#address> "DII- Universita di Modena e Reggio Emilia via Vignolese 905 41100 Modena Italy" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#address> "Freie UniversitÃ¤t Berlin" .
+<http://curso.com/directMap/organizations/orgid=1> <http://curso.com/directMap/organizations#address> "4676 Admirality Way" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#address> "De Boelelaan 1081a" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#address> "De Boelelaan 1105" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#address> "Filton Road" .
+<http://curso.com/directMap/organizations/orgid=8> <http://curso.com/directMap/organizations#address> "Via Enrico Fermi, 1\\n21020 - Ispra (Italy)" .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#address> "Via Vignolese 905" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#belongsto> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#conference> "23541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#conference> "23541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#conference> "23541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#conference> "23541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#conference> "23541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#conference> "23542"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=1;organizationid=1> <http://curso.com/directMap/rel_person_organization#organizationid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=2;organizationid=1> <http://curso.com/directMap/rel_person_organization#organizationid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=3;organizationid=1> <http://curso.com/directMap/rel_person_organization#organizationid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=4;organizationid=3> <http://curso.com/directMap/rel_person_organization#organizationid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=5> <http://curso.com/directMap/rel_person_organization#organizationid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=6> <http://curso.com/directMap/rel_person_organization#organizationid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=6;organizationid=7> <http://curso.com/directMap/rel_person_organization#organizationid> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=9;organizationid=8> <http://curso.com/directMap/rel_person_organization#organizationid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=10;organizationid=9> <http://curso.com/directMap/rel_person_organization#organizationid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=11;organizationid=9> <http://curso.com/directMap/rel_person_organization#organizationid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=5> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=1> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=15> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=1> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=3> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=2> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=5> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=2> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=10> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=4> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=11> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=4> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=14> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=4> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=2> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=5> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=3> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=5> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=13> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=5> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=5> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=6> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=11> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=6> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=13> <http://curso.com/directMap/rel_paper_topic#ref-paperid> <http://curso.com/directMap/papers/paperid=6> .
+<http://curso.com/directMap/topics/topicid=1> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Representation_Languages" .
+<http://curso.com/directMap/topics/topicid=2> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Systems" .
+<http://curso.com/directMap/topics/topicid=3> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Artificial_Intelligence" .
+<http://curso.com/directMap/topics/topicid=4> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Annotation" .
+<http://curso.com/directMap/topics/topicid=5> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web" .
+<http://curso.com/directMap/topics/topicid=6> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web_Languages" .
+<http://curso.com/directMap/topics/topicid=7> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Web_Services" .
+<http://curso.com/directMap/topics/topicid=8> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#World_Wide_Web" .
+<http://curso.com/directMap/topics/topicid=9> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Text_Mining" .
+<http://curso.com/directMap/topics/topicid=10> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Databases" .
+<http://curso.com/directMap/topics/topicid=11> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web_Iinfrastructure" .
+<http://curso.com/directMap/topics/topicid=13> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#e-Business" .
+<http://curso.com/directMap/topics/topicid=14> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Query_Languages" .
+<http://curso.com/directMap/topics/topicid=15> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Management" .
+<http://curso.com/directMap/topics/topicid=16> <http://curso.com/directMap/topics#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Discovery" .
+<http://curso.com/directMap/persons/perid=1> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=2> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=3> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=4> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=5> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=6> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=9> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=10> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=11> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/persons/perid=12> a <http://curso.com/directMap/persons> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=1> <http://curso.com/directMap/rel_person_topic#topicid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=1> <http://curso.com/directMap/rel_person_topic#topicid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=4;topicid=1> <http://curso.com/directMap/rel_person_topic#topicid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=2> <http://curso.com/directMap/rel_person_topic#topicid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=2> <http://curso.com/directMap/rel_person_topic#topicid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=3> <http://curso.com/directMap/rel_person_topic#topicid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=3> <http://curso.com/directMap/rel_person_topic#topicid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=5> <http://curso.com/directMap/rel_person_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=5> <http://curso.com/directMap/rel_person_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=6;topicid=5> <http://curso.com/directMap/rel_person_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=9;topicid=5> <http://curso.com/directMap/rel_person_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=5> <http://curso.com/directMap/rel_person_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=5> <http://curso.com/directMap/rel_person_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=6> <http://curso.com/directMap/rel_person_topic#topicid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=7> <http://curso.com/directMap/rel_person_topic#topicid> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=7> <http://curso.com/directMap/rel_person_topic#topicid> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=8> <http://curso.com/directMap/rel_person_topic#topicid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=10> <http://curso.com/directMap/rel_person_topic#topicid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=10> <http://curso.com/directMap/rel_person_topic#topicid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=13> <http://curso.com/directMap/rel_person_topic#topicid> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=15> <http://curso.com/directMap/rel_person_topic#topicid> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#photo> "http://www.isi.edu/~gil/y.g.v4.tiff" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#photo> "http://semtech2011.semanticweb.com/uploads/images/bios/3205.jpg" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#photo> "http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/pics/bizer_christian_200x300.png" .
+<http://curso.com/directMap/topics/topicid=1> <http://curso.com/directMap/topics#topicname> "Knowledge Representation Languages" .
+<http://curso.com/directMap/topics/topicid=2> <http://curso.com/directMap/topics#topicname> "Knowledge Systems" .
+<http://curso.com/directMap/topics/topicid=3> <http://curso.com/directMap/topics#topicname> "Artificial Intelligence" .
+<http://curso.com/directMap/topics/topicid=4> <http://curso.com/directMap/topics#topicname> "Semantic Annotation" .
+<http://curso.com/directMap/topics/topicid=5> <http://curso.com/directMap/topics#topicname> "Semantic Web" .
+<http://curso.com/directMap/topics/topicid=6> <http://curso.com/directMap/topics#topicname> "Semantic Web Languages" .
+<http://curso.com/directMap/topics/topicid=7> <http://curso.com/directMap/topics#topicname> "Web Services" .
+<http://curso.com/directMap/topics/topicid=8> <http://curso.com/directMap/topics#topicname> "World Wide Web" .
+<http://curso.com/directMap/topics/topicid=9> <http://curso.com/directMap/topics#topicname> "Text Mining" .
+<http://curso.com/directMap/topics/topicid=10> <http://curso.com/directMap/topics#topicname> "Databases" .
+<http://curso.com/directMap/topics/topicid=11> <http://curso.com/directMap/topics#topicname> "Semantic Web Infrastructure" .
+<http://curso.com/directMap/topics/topicid=13> <http://curso.com/directMap/topics#topicname> "E-Business" .
+<http://curso.com/directMap/topics/topicid=14> <http://curso.com/directMap/topics#topicname> "Query Languages" .
+<http://curso.com/directMap/topics/topicid=15> <http://curso.com/directMap/topics#topicname> "Knowledge Management" .
+<http://curso.com/directMap/topics/topicid=16> <http://curso.com/directMap/topics#topicname> "Knowledge Discovery" .
+<http://curso.com/directMap/conferences/confid=23541> <http://curso.com/directMap/conferences#confid> "23541"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/conferences/confid=23542> <http://curso.com/directMap/conferences#confid> "23542"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#postcode> "1081 HV" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#postcode> "1081 HV" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#postcode> "BS34 8QZ" .
+<http://curso.com/directMap/rel_person_organization/personid=1;organizationid=1> <http://curso.com/directMap/rel_person_organization#personid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=2;organizationid=1> <http://curso.com/directMap/rel_person_organization#personid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=3;organizationid=1> <http://curso.com/directMap/rel_person_organization#personid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=4;organizationid=3> <http://curso.com/directMap/rel_person_organization#personid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=5> <http://curso.com/directMap/rel_person_organization#personid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=6> <http://curso.com/directMap/rel_person_organization#personid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=6;organizationid=7> <http://curso.com/directMap/rel_person_organization#personid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=9;organizationid=8> <http://curso.com/directMap/rel_person_organization#personid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=10;organizationid=9> <http://curso.com/directMap/rel_person_organization#personid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=11;organizationid=9> <http://curso.com/directMap/rel_person_organization#personid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=1;paperid=1> <http://curso.com/directMap/rel_person_paper#paperid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=2;paperid=1> <http://curso.com/directMap/rel_person_paper#paperid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=4;paperid=2> <http://curso.com/directMap/rel_person_paper#paperid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=6;paperid=4> <http://curso.com/directMap/rel_person_paper#paperid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=9;paperid=4> <http://curso.com/directMap/rel_person_paper#paperid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=10;paperid=5> <http://curso.com/directMap/rel_person_paper#paperid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=11;paperid=5> <http://curso.com/directMap/rel_person_paper#paperid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=5;paperid=6> <http://curso.com/directMap/rel_person_paper#paperid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_paper/personid=12;paperid=8> <http://curso.com/directMap/rel_person_paper#paperid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=5> <http://curso.com/directMap/rel_paper_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=15> <http://curso.com/directMap/rel_paper_topic#topicid> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=3> <http://curso.com/directMap/rel_paper_topic#topicid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=5> <http://curso.com/directMap/rel_paper_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=10> <http://curso.com/directMap/rel_paper_topic#topicid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=11> <http://curso.com/directMap/rel_paper_topic#topicid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=14> <http://curso.com/directMap/rel_paper_topic#topicid> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=2> <http://curso.com/directMap/rel_paper_topic#topicid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=3> <http://curso.com/directMap/rel_paper_topic#topicid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=13> <http://curso.com/directMap/rel_paper_topic#topicid> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=5> <http://curso.com/directMap/rel_paper_topic#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=11> <http://curso.com/directMap/rel_paper_topic#topicid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=13> <http://curso.com/directMap/rel_paper_topic#topicid> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/conferences/confid=23541> <http://curso.com/directMap/conferences#location> "Sardinia" .
+<http://curso.com/directMap/conferences/confid=23542> <http://curso.com/directMap/conferences#location> "Edinburgh" .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#publish> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#publish> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#publish> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#publish> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#publish> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=7> <http://curso.com/directMap/papers#publish> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#publish> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_organization/personid=1;organizationid=1> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=1> .
+<http://curso.com/directMap/rel_person_organization/personid=2;organizationid=1> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=1> .
+<http://curso.com/directMap/rel_person_organization/personid=3;organizationid=1> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=1> .
+<http://curso.com/directMap/rel_person_organization/personid=4;organizationid=3> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=3> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=5> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=5> .
+<http://curso.com/directMap/rel_person_organization/personid=5;organizationid=6> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=6> .
+<http://curso.com/directMap/rel_person_organization/personid=6;organizationid=7> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=7> .
+<http://curso.com/directMap/rel_person_organization/personid=9;organizationid=8> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=8> .
+<http://curso.com/directMap/rel_person_organization/personid=10;organizationid=9> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=9> .
+<http://curso.com/directMap/rel_person_organization/personid=11;organizationid=9> <http://curso.com/directMap/rel_person_organization#ref-organizationid> <http://curso.com/directMap/organizations/orgid=9> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=1> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=1> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=1> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=3> .
+<http://curso.com/directMap/rel_person_topic/personid=4;topicid=1> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=4> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=2> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=1> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=2> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=3> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=3> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=1> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=3> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=3> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=2> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=6;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=6> .
+<http://curso.com/directMap/rel_person_topic/personid=9;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=9> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=10> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=5> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=11> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=6> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=2> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=7> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=2> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=7> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=8> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=2> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=10> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=10> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=10> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=11> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=13> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=5> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=15> <http://curso.com/directMap/rel_person_topic#ref-personid> <http://curso.com/directMap/persons/perid=10> .
+<http://curso.com/directMap/papers/paperid=1> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/papers/paperid=2> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/papers/paperid=4> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/papers/paperid=5> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/papers/paperid=6> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/papers/paperid=7> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/papers/paperid=8> a <http://curso.com/directMap/papers> .
+<http://curso.com/directMap/s/orgid=6> <http://curso.com/directMap/organizations#ref-belongsto> <http://curso.com/directMap/o/orgid=6> .
+<http://curso.com/directMap/organizations/orgid=1> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=2> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=3> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=4> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=5> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=6> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=7> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=8> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/organizations/orgid=9> a <http://curso.com/directMap/organizations> .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#perid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=2> <http://curso.com/directMap/persons#perid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#perid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#perid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#perid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#perid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=9> <http://curso.com/directMap/persons#perid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#perid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#perid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#perid> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/conferences/confid=23541> <http://curso.com/directMap/conferences#datum> "2002-10-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://curso.com/directMap/conferences/confid=23542> <http://curso.com/directMap/conferences#datum> "2006-05-23T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://curso.com/directMap/organizations/orgid=2> <http://curso.com/directMap/organizations#type> "U" .
+<http://curso.com/directMap/organizations/orgid=3> <http://curso.com/directMap/organizations#type> "U" .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#type> "I" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#type> "D" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#type> "U" .
+<http://curso.com/directMap/organizations/orgid=8> <http://curso.com/directMap/organizations#type> "I" .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#type> "D" .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=5> <http://curso.com/directMap/rel_paper_topic#relationtype> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=1;topicid=15> <http://curso.com/directMap/rel_paper_topic#relationtype> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=3> <http://curso.com/directMap/rel_paper_topic#relationtype> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=2;topicid=5> <http://curso.com/directMap/rel_paper_topic#relationtype> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=10> <http://curso.com/directMap/rel_paper_topic#relationtype> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=11> <http://curso.com/directMap/rel_paper_topic#relationtype> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=4;topicid=14> <http://curso.com/directMap/rel_paper_topic#relationtype> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=2> <http://curso.com/directMap/rel_paper_topic#relationtype> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=3> <http://curso.com/directMap/rel_paper_topic#relationtype> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=5;topicid=13> <http://curso.com/directMap/rel_paper_topic#relationtype> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=5> <http://curso.com/directMap/rel_paper_topic#relationtype> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=11> <http://curso.com/directMap/rel_paper_topic#relationtype> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_paper_topic/paperid=6;topicid=13> <http://curso.com/directMap/rel_paper_topic#relationtype> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/conferences/confid=23541> <http://curso.com/directMap/conferences#name> "International Semantic Web Conference 2002" .
+<http://curso.com/directMap/conferences/confid=23542> <http://curso.com/directMap/conferences#name> "15th International World Wide Web Conference" .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#lastname> "Gil" .
+<http://curso.com/directMap/persons/perid=2> <http://curso.com/directMap/persons#lastname> "Ratnakar" .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#lastname> "Blythe" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#lastname> "Eberhart" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#lastname> "Omelayenko" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#lastname> "Seaborne" .
+<http://curso.com/directMap/persons/perid=9> <http://curso.com/directMap/persons#lastname> "Reggiori" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#lastname> "Bergamaschi" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#lastname> "Guerra" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#lastname> "Bizer" .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#uri> "http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Yolanda Gil" .
+<http://curso.com/directMap/persons/perid=2> <http://curso.com/directMap/persons#uri> "http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Varun Ratnakar" .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#uri> "http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Jim Blythe" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#uri> "http://www.i-u.de/schools/eberhart/iswc2002/#Andreas Eberhart" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#uri> "http://www.cs.vu.nl/~borys#Bomelayenko" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#uri> "http://www-uk.hpl.hp.com/people#andy_seaborne" .
+<http://curso.com/directMap/persons/perid=9> <http://curso.com/directMap/persons#uri> "http://reggiori.webweaving.org#Alberto Reggiori" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#uri> "http://www.dbgroup.unimo.it/iswc/iswc.html#S. Bergamaschi" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#uri> "http://www.dbgroup.unimo.it/iswc/iswc.html#F. Guerra" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#uri> "http://www.bizer.de/foaf.rdf#chris" .
+<http://curso.com/directMap/organizations/orgid=1> <http://curso.com/directMap/organizations#orgid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=2> <http://curso.com/directMap/organizations#orgid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=3> <http://curso.com/directMap/organizations#orgid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#orgid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#orgid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#orgid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#orgid> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=8> <http://curso.com/directMap/organizations#orgid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#orgid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#type> "Full_Professor" .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#type> "Researcher" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#type> "Researcher" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#type> "Researcher" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#type> "Researcher" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#type> "Full_Professor" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#type> "Researcher" .
+<http://curso.com/directMap/conferences/confid=23541> <http://curso.com/directMap/conferences#date> "June 9-12, 2002" .
+<http://curso.com/directMap/conferences/confid=23542> <http://curso.com/directMap/conferences#date> "May 23-26, 2006" .
+<http://curso.com/directMap/organizations/orgid=1> <http://curso.com/directMap/organizations#name> "USC Information Sciences Institute" .
+<http://curso.com/directMap/organizations/orgid=2> <http://curso.com/directMap/organizations#name> "University of Karlsruhe" .
+<http://curso.com/directMap/organizations/orgid=3> <http://curso.com/directMap/organizations#name> "International University in Germany" .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#name> "AIFB" .
+<http://curso.com/directMap/organizations/orgid=5> <http://curso.com/directMap/organizations#name> "Department of Computer Science" .
+<http://curso.com/directMap/organizations/orgid=6> <http://curso.com/directMap/organizations#name> "Vrije Universiteit Amsterdam" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#name> "Hewlett-Packard Laboratories, Bristol" .
+<http://curso.com/directMap/organizations/orgid=8> <http://curso.com/directMap/organizations#name> "Institute for the Protection and Security of the Citizen" .
+<http://curso.com/directMap/organizations/orgid=9> <http://curso.com/directMap/organizations#name> "Dipartimento di Ingegneria dell'Informazione" .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#firstname> "Yolanda" .
+<http://curso.com/directMap/persons/perid=2> <http://curso.com/directMap/persons#firstname> "Varun" .
+<http://curso.com/directMap/persons/perid=3> <http://curso.com/directMap/persons#firstname> "Jim" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#firstname> "Andreas" .
+<http://curso.com/directMap/persons/perid=5> <http://curso.com/directMap/persons#firstname> "Borys" .
+<http://curso.com/directMap/persons/perid=6> <http://curso.com/directMap/persons#firstname> "Andy" .
+<http://curso.com/directMap/persons/perid=9> <http://curso.com/directMap/persons#firstname> "Alberto" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#firstname> "Sonia" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#firstname> "Francesco" .
+<http://curso.com/directMap/persons/perid=12> <http://curso.com/directMap/persons#firstname> "Christian" .
+<http://curso.com/directMap/organizations/orgid=4> <http://curso.com/directMap/organizations#homepage> "http://www.aifb.uni-karlsruhe.de/" .
+<http://curso.com/directMap/organizations/orgid=7> <http://curso.com/directMap/organizations#homepage> "http://www.hpl.hp.com/" .
+<http://curso.com/directMap/conferences/confid=23541> <http://curso.com/directMap/conferences#uri> "http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002" .
+<http://curso.com/directMap/topics/topicid=1> <http://curso.com/directMap/topics#parentid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=2> <http://curso.com/directMap/topics#parentid> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=4> <http://curso.com/directMap/topics#parentid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=5> <http://curso.com/directMap/topics#parentid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=6> <http://curso.com/directMap/topics#parentid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=7> <http://curso.com/directMap/topics#parentid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=9> <http://curso.com/directMap/topics#parentid> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=11> <http://curso.com/directMap/topics#parentid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=14> <http://curso.com/directMap/topics#parentid> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=16> <http://curso.com/directMap/topics#parentid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=1> <http://curso.com/directMap/rel_person_topic#personid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=1> <http://curso.com/directMap/rel_person_topic#personid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=4;topicid=1> <http://curso.com/directMap/rel_person_topic#personid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=2> <http://curso.com/directMap/rel_person_topic#personid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=2> <http://curso.com/directMap/rel_person_topic#personid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=3> <http://curso.com/directMap/rel_person_topic#personid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=3> <http://curso.com/directMap/rel_person_topic#personid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=5> <http://curso.com/directMap/rel_person_topic#personid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=5> <http://curso.com/directMap/rel_person_topic#personid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=6;topicid=5> <http://curso.com/directMap/rel_person_topic#personid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=9;topicid=5> <http://curso.com/directMap/rel_person_topic#personid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=5> <http://curso.com/directMap/rel_person_topic#personid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=5> <http://curso.com/directMap/rel_person_topic#personid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=6> <http://curso.com/directMap/rel_person_topic#personid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=7> <http://curso.com/directMap/rel_person_topic#personid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=7> <http://curso.com/directMap/rel_person_topic#personid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=8> <http://curso.com/directMap/rel_person_topic#personid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=10> <http://curso.com/directMap/rel_person_topic#personid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=10> <http://curso.com/directMap/rel_person_topic#personid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=13> <http://curso.com/directMap/rel_person_topic#personid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=15> <http://curso.com/directMap/rel_person_topic#personid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=1> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=1> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=4;topicid=1> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=2> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=2> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=1;topicid=3> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=3;topicid=3> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=5> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=5> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=6;topicid=5> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=9;topicid=5> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=5> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=5> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=6> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=7> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=7> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=2;topicid=8> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=10> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=11;topicid=10> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=5;topicid=13> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/rel_person_topic/personid=10;topicid=15> a <http://curso.com/directMap/rel_person_topic> .
+<http://curso.com/directMap/conferences/confid=23541> a <http://curso.com/directMap/conferences> .
+<http://curso.com/directMap/conferences/confid=23542> a <http://curso.com/directMap/conferences> .
+<http://curso.com/directMap/persons/perid=1> <http://curso.com/directMap/persons#phone> "310-448-8794" .
+<http://curso.com/directMap/persons/perid=4> <http://curso.com/directMap/persons#phone> "+49 7251 700 222" .
+<http://curso.com/directMap/persons/perid=10> <http://curso.com/directMap/persons#phone> "+39 059 2056132" .
+<http://curso.com/directMap/persons/perid=11> <http://curso.com/directMap/persons#phone> "+39 059 20561543" .
+<http://curso.com/directMap/papers/paperid=1> <http://curso.com/directMap/papers#paperid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=2> <http://curso.com/directMap/papers#paperid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=4> <http://curso.com/directMap/papers#paperid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=5> <http://curso.com/directMap/papers#paperid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=6> <http://curso.com/directMap/papers#paperid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=7> <http://curso.com/directMap/papers#paperid> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/papers/paperid=8> <http://curso.com/directMap/papers#paperid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=1> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=2> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=3> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=4> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=5> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=6> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=7> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=8> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=9> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=10> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=11> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=13> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=14> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=15> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=16> a <http://curso.com/directMap/topics> .
+<http://curso.com/directMap/topics/topicid=1> <http://curso.com/directMap/topics#topicid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=2> <http://curso.com/directMap/topics#topicid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=3> <http://curso.com/directMap/topics#topicid> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=4> <http://curso.com/directMap/topics#topicid> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=5> <http://curso.com/directMap/topics#topicid> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=6> <http://curso.com/directMap/topics#topicid> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=7> <http://curso.com/directMap/topics#topicid> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=8> <http://curso.com/directMap/topics#topicid> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=9> <http://curso.com/directMap/topics#topicid> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=10> <http://curso.com/directMap/topics#topicid> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=11> <http://curso.com/directMap/topics#topicid> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=13> <http://curso.com/directMap/topics#topicid> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=14> <http://curso.com/directMap/topics#topicid> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=15> <http://curso.com/directMap/topics#topicid> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://curso.com/directMap/topics/topicid=16> <http://curso.com/directMap/topics#topicid> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .

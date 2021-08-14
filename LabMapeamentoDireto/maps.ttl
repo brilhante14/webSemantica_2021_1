@@ -1,0 +1,600 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:MAPPING-ID1> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"topics\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "uri";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/topics#uri>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "parentid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/topics#parentid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "topicid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/topics#topicid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "topicname";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/topics#topicname>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/topics>;
+      rr:template "http://curso.com/directMap/topics/topicid={topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID2> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT s.\"topicid\" AS \"topics_topicid1\", o.\"topicid\" AS \"topics_topicid\" FROM \"topics\" s, \"topics\" o WHERE s.\"parentid\" = o.\"topicid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/o/topicid={topics_topicid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/topics#ref-parentid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/s/topicid={topics_topicid1}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID3> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"papers\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "paperid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#paperid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "title";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#title>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "abstract";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#abstract>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "uri";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#uri>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "year";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#year>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "conference";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#conference>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "publish";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/papers#publish>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/papers>;
+      rr:template "http://curso.com/directMap/papers/paperid={paperid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID4> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"papers\".\"paperid\" AS \"papers_paperid\", \"conferences\".\"confid\" AS \"conferences_confid\" FROM \"papers\", \"conferences\" WHERE \"papers\".\"conference\" = \"conferences\".\"confid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/conferences/confid={conferences_confid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/papers#ref-conference>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/papers/paperid={papers_paperid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID5> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"rel_person_organization\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "personid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_organization#personid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "organizationid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_organization#organizationid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/rel_person_organization>;
+      rr:template "http://curso.com/directMap/rel_person_organization/personid={personid};organizationid={organizationid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID6> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_person_organization\".\"personid\" AS \"rel_person_organization_personid\", \"rel_person_organization\".\"organizationid\" AS \"rel_person_organization_organizationid\", \"organizations\".\"orgid\" AS \"organizations_orgid\" FROM \"rel_person_organization\", \"organizations\" WHERE \"rel_person_organization\".\"organizationid\" = \"organizations\".\"orgid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/organizations/orgid={organizations_orgid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_organization#ref-organizationid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_person_organization/personid={rel_person_organization_personid};organizationid={rel_person_organization_organizationid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID7> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_person_organization\".\"personid\" AS \"rel_person_organization_personid\", \"rel_person_organization\".\"organizationid\" AS \"rel_person_organization_organizationid\", \"persons\".\"perid\" AS \"persons_perid\" FROM \"rel_person_organization\", \"persons\" WHERE \"rel_person_organization\".\"personid\" = \"persons\".\"perid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/persons/perid={persons_perid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_organization#ref-personid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_person_organization/personid={rel_person_organization_personid};organizationid={rel_person_organization_organizationid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID8> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"persons\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "perid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#perid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "type";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#type>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "firstname";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#firstname>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "lastname";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#lastname>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "address";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#address>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "email";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#email>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "homepage";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#homepage>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "phone";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#phone>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "uri";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#uri>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "photo";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/persons#photo>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/persons>;
+      rr:template "http://curso.com/directMap/persons/perid={perid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID9> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"rel_person_topic\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "personid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_topic#personid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "topicid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_topic#topicid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/rel_person_topic>;
+      rr:template "http://curso.com/directMap/rel_person_topic/personid={personid};topicid={topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID10> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_person_topic\".\"personid\" AS \"rel_person_topic_personid\", \"rel_person_topic\".\"topicid\" AS \"rel_person_topic_topicid\", \"persons\".\"perid\" AS \"persons_perid\" FROM \"rel_person_topic\", \"persons\" WHERE \"rel_person_topic\".\"personid\" = \"persons\".\"perid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/persons/perid={persons_perid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_topic#ref-personid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_person_topic/personid={rel_person_topic_personid};topicid={rel_person_topic_topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID11> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_person_topic\".\"personid\" AS \"rel_person_topic_personid\", \"rel_person_topic\".\"topicid\" AS \"rel_person_topic_topicid\", \"topics\".\"topicid\" AS \"topics_topicid\" FROM \"rel_person_topic\", \"topics\" WHERE \"rel_person_topic\".\"topicid\" = \"topics\".\"topicid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/topics/topicid={topics_topicid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_topic#ref-topicid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_person_topic/personid={rel_person_topic_personid};topicid={rel_person_topic_topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID12> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"rel_person_paper\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "personid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_paper#personid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "paperid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_paper#paperid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/rel_person_paper>;
+      rr:template "http://curso.com/directMap/rel_person_paper/personid={personid};paperid={paperid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID13> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_person_paper\".\"personid\" AS \"rel_person_paper_personid\", \"rel_person_paper\".\"paperid\" AS \"rel_person_paper_paperid\", \"papers\".\"paperid\" AS \"papers_paperid\" FROM \"rel_person_paper\", \"papers\" WHERE \"rel_person_paper\".\"paperid\" = \"papers\".\"paperid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/papers/paperid={papers_paperid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_paper#ref-paperid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_person_paper/personid={rel_person_paper_personid};paperid={rel_person_paper_paperid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID14> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_person_paper\".\"personid\" AS \"rel_person_paper_personid\", \"rel_person_paper\".\"paperid\" AS \"rel_person_paper_paperid\", \"persons\".\"perid\" AS \"persons_perid\" FROM \"rel_person_paper\", \"persons\" WHERE \"rel_person_paper\".\"personid\" = \"persons\".\"perid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/persons/perid={persons_perid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_person_paper#ref-personid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_person_paper/personid={rel_person_paper_personid};paperid={rel_person_paper_paperid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID15> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"organizations\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "orgid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#orgid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "type";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#type>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "name";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#name>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "address";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#address>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "location";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#location>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "postcode";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#postcode>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "country";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#country>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "uri";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#uri>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "belongsto";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#belongsto>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "homepage";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#homepage>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/organizations>;
+      rr:template "http://curso.com/directMap/organizations/orgid={orgid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID16> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT s.\"orgid\" AS \"organizations_orgid1\", o.\"orgid\" AS \"organizations_orgid\" FROM \"organizations\" s, \"organizations\" o WHERE s.\"belongsto\" = o.\"orgid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/o/orgid={organizations_orgid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/organizations#ref-belongsto>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/s/orgid={organizations_orgid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID17> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"rel_paper_topic\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "paperid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_paper_topic#paperid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "topicid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_paper_topic#topicid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "relationtype";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/rel_paper_topic#relationtype>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/rel_paper_topic>;
+      rr:template "http://curso.com/directMap/rel_paper_topic/paperid={paperid};topicid={topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID18> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_paper_topic\".\"paperid\" AS \"rel_paper_topic_paperid\", \"rel_paper_topic\".\"topicid\" AS \"rel_paper_topic_topicid\", \"papers\".\"paperid\" AS \"papers_paperid\" FROM \"rel_paper_topic\", \"papers\" WHERE \"rel_paper_topic\".\"paperid\" = \"papers\".\"paperid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/papers/paperid={papers_paperid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_paper_topic#ref-paperid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_paper_topic/paperid={rel_paper_topic_paperid};topicid={rel_paper_topic_topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID19> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT \"rel_paper_topic\".\"paperid\" AS \"rel_paper_topic_paperid\", \"rel_paper_topic\".\"topicid\" AS \"rel_paper_topic_topicid\", \"topics\".\"topicid\" AS \"topics_topicid\" FROM \"rel_paper_topic\", \"topics\" WHERE \"rel_paper_topic\".\"topicid\" = \"topics\".\"topicid\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:template "http://curso.com/directMap/topics/topicid={topics_topicid}";
+          rr:termType rr:IRI
+        ];
+      rr:predicate <http://curso.com/directMap/rel_paper_topic#ref-topicid>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:template "http://curso.com/directMap/rel_paper_topic/paperid={rel_paper_topic_paperid};topicid={rel_paper_topic_topicid}";
+      rr:termType rr:IRI
+    ] .
+
+<urn:MAPPING-ID20> a rr:TriplesMap;
+  rr:logicalTable [ a rr:R2RMLView;
+      rr:sqlQuery "SELECT * FROM \"conferences\""
+    ];
+  rr:predicateObjectMap [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "confid";
+          rr:datatype xsd:integer;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/conferences#confid>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "name";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/conferences#name>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "uri";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/conferences#uri>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "date";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/conferences#date>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "location";
+          rr:datatype xsd:string;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/conferences#location>
+    ], [ a rr:PredicateObjectMap;
+      rr:objectMap [ a rr:ObjectMap, rr:TermMap;
+          rr:column "datum";
+          rr:datatype xsd:dateTime;
+          rr:termType rr:Literal
+        ];
+      rr:predicate <http://curso.com/directMap/conferences#datum>
+    ];
+  rr:subjectMap [ a rr:SubjectMap, rr:TermMap;
+      rr:class <http://curso.com/directMap/conferences>;
+      rr:template "http://curso.com/directMap/conferences/confid={confid}";
+      rr:termType rr:IRI
+    ] .
